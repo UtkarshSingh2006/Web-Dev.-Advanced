@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4ecdc4, #45b7d1);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #6c63ff;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.08) translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.primary-btn {
+    width: 100%;
+    background: #4ecdc4;
+}
+
+.secondary-btn {
+    flex: 1;
+    background: #45b7d1;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+
+.event-card {
+    background: #f4f6f8;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.event-card:hover {
+    transform: scale(1.02);
+}
+
+.event-card button {
+    margin-top: 6px;
+    margin-right: 5px;
+    padding: 6px 10px;
+    background: #ff4d4d;
+}
+
+
+.demo-card {
+    width: 850px;
+    margin: 30px auto;
+}
+
+.key-display {
+    background: #f4f6f8;
+    padding: 12px;
+    border-radius: 8px;
+}
