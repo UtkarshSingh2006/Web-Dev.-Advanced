@@ -1,0 +1,1 @@
+This repository contains my major projects and assignments from the Web Development Advanced course. Each project demonstrates practical applications of modern web technologies and concepts taught in class.
