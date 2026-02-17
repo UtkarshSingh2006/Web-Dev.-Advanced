@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Get Values from Input tag</title>
+</head>
+
+<body>
+    <input type="text" id="nm" placeholder="enter name" value="">
+    <button onclick="getName()">Click</button>
+</body>
+
+</html>
+<script>
+    function getName() {
+
+        const el = document.getElementById("nm");
+        console.log(el);
+
+
+        const data = el.value;
+        console.log(data);
+    }
+</script>
